@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  padding: 0;
+  background-color:#f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__main-illustration {
+  background-image: url(../../images/two_again.png);
+  background-size: cover;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 2;
+
+}
+
+.header__link {
+  text-decoration: none;
+  padding-left:.5em;
+  color: #2f80ed;
+}
+
+.header__square-pic_type_rotate {
+  position: relative;
+  transform: rotate(0);
+  animation: rotation linear 20s infinite;
+  animation-name: rotate;
+}
+
+

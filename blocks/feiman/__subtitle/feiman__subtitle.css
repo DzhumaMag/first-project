@@ -1,0 +1,8 @@
+.feiman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: calc(40%);
+  left: calc(40%);
+}

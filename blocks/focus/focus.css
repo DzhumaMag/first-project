@@ -1,0 +1,11 @@
+.link:hover {
+  color: #2f81ed64;
+}
+
+.focus:hover {
+  filter: opacity(0.25);
+}
+
+footer .link:hover {
+  color: #444343;
+}
